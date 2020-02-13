@@ -1,6 +1,5 @@
 class ApplicationController < ActionController::Base
-
   def hello
-    render html: 'A webpage?!'
+    render html: 'Nanii?!'
   end
 end
