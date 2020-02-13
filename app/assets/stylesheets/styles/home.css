@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body nav {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body nav p {
+  color: white;
+}
+
+body h1 {
+  font-weight: bold;
+}
+
+body h3 {
+  position: relative;
+  top: -20px;
+}
+/*# sourceMappingURL=home.css.map */
