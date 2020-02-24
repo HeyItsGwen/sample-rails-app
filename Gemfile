@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'bootstrap-sass', '3.3.7'
+gem 'rails-controller-testing'
 
 ruby '2.6.5'
 
