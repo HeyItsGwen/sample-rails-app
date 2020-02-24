@@ -1,17 +1,13 @@
 <% provide(:title, "Home") %>
 <!DOCTYPE html>
 
-<head>
-  <link rel="stylesheet" type="text/css" href="/app/assets/stylesheets/styles/home.css">
-</head>
-
 <body>
-  <main>
+  <div class ="center jumbotron">
     <h1>THIS</h1>
     <h3>is a website</h3>
 
     <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
-    <% link_to image_tag("rails.png", alt:"Rails logo"), 'http://rubyonrails.org/' %>
-  </main>
-
+  </div>
+  <%= link_to image_tag("rails.png", alt: "Rails logo"),
+              'http://rubyonrails.org/' %>
 </body>
